@@ -1,0 +1,375 @@
+@CHARSET "UTF-8";
+
+.imgReg {
+	height: 200px;
+	width: 100%;
+}
+.panel-body .name {
+	background: #F5F5F5;
+}
+.name h4{
+	text-align: center;
+}
+.item{
+	display: none;
+}
+.item img {
+	border: 0;
+	min-height: 200px;
+} 
+/*  .item {
+	 border: 2px solid #f9f9f9; 
+} */ 
+.cls {
+	list-style: none;
+}
+.pading {
+	padding-left: 10px;
+}
+.bold {
+	font-weight: bold;
+}
+.center {
+	text-align: center;
+}
+.form-section {
+	width: 60%;
+	margin: 0 auto !important;
+}
+.modal-dialog.modal-sm.loginpopup {
+	height: unset;
+}
+label.checkbox-inline {
+	font-size: 16px;
+	margin-bottom: 13px;
+	margin-right: 8px;
+	text-align: center !important;
+}
+.rating {
+    float:left;
+}
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+}
+.rating:not(:checked) > label:before {
+    content: '\2605';
+}
+.rating > input:checked ~ label {
+    color: #f70;
+}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+}
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+.error1{
+	color: #1C7D74;
+}
+.error {
+	color: #FF0000;
+}
+.title {
+	float: left;
+	width: 100%;
+}
+.modal-dialog.modal-sm.loginpopup {
+	height: unset;
+}
+
+@media ( min-width : 767px) {
+	.stars1 {
+		display: none;
+	}
+}
+
+@media ( min-width : 320px) and (max-width: 990px) {
+	.stars {
+		display: none;
+	}
+	.stars1 {
+		display: block;
+	}
+	.modal .modal-dialog {
+		display: unset;
+	}
+}
+.contactInfo {
+	font-weight: bold;
+}
+
+.contact {
+	border-color: #e2e9e6;
+	padding: 0 10px;
+	padding-bottom: 5px;
+	background: #FFFFFF;
+}
+.star {
+	color: #1C7D74;
+} 
+.expandable-content {
+	text-align: justify;
+}
+
+.name {
+	font-weight: bold;
+}
+.modal-dialog.modal-sm.loginpopup {
+	height: unset;
+}
+
+@media ( min-width : 767px) {
+	.stars1 {
+		display: none;
+	}
+}
+.modal-body .row .omb_spanOr {
+ background-color: white;
+ display: block;
+ left: 50%;
+ margin-left: -1.5em;
+ position: absolute;
+ text-align: center;
+ top: 4.1em;
+ width: 3em;
+}
+
+.modal-body .row .omb_hrOr {
+ background-color: #cdcdcd ;
+ height: 1px;
+ margin-bottom: 13 !important;
+ margin-top: 20 !important;
+}
+@media ( min-width : 320px) and (max-width: 767px) {
+	.stars {
+		display: none;
+	}
+	.stars1 {
+		display: block;
+	}
+	.modal .modal-dialog {
+		display: unset;
+	}
+}
+.page-section .margin-bottom {
+	text-align: center;
+}
+.planData {
+	display: none;
+}
+
+.pagi {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #f5f5f5;
+}
+
+.pagi a:hover {
+	text-decoration: none;
+}
+
+.pagi:hover {
+	cursor: pointer;
+	background: #186860;
+}
+
+.pagi:hover a {
+	color: #FFF;
+}
+.hotelImg {
+	height: 250px;
+	width: 100%;
+	border: 1px solid;
+}
+
+.outer-circle-image {
+	border: 1px solid #dbdbdb;
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+}
+
+.outer-circle-image .login-name {
+	display: none;
+}
+
+.outer-circle-image .caret {
+	display: none;
+}
+.hImg {
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-left: 5px;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+}
+
+.modal.in .modal-dialog {
+	height: unset;
+}
+
+.inner-circle-image {
+	border: 1px solid #dbdbdb;
+	border-radius: 100%;
+	height: 180px;
+	margin: 7px;
+	width: 180px;
+}
+
+.inner-circle-image img {
+	height: 182px;
+	width: 182px;
+}
+
+.vender-profile {
+	float: left;
+	width: 100%;
+	font-weight: bold;
+}
+
+.vender-profile th, td, tr {
+	border: medium none;
+	padding: 10px 0px;
+}
+
+.padding-top {
+	padding: 15px 0px;
+}
+
+.profile {
+	float: left;
+}
+.padding-top {
+	padding: 15px 0px;
+}
+* {
+	box-sizing: border-box;
+}
+
+.columns1 {
+	float: left;
+	width: 32.3%;
+	padding: 8px;
+}
+
+.columns {
+	float: left;
+	width: 24.3%;
+	padding: 8px;
+}
+
+.price {
+	list-style-type: none;
+	border: 1px solid #eee;
+	margin: 0;
+	padding: 0;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.price:hover {
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+	background-color: #111;
+	color: white;
+	font-size: 25px;
+}
+
+.price li {
+	border-bottom: 1px solid #eee;
+	padding: 20px;
+	text-align: center;
+}
+
+.price .grey {
+	background-color: #eee;
+	font-size: 20px;
+}
+
+.button {
+	background-color: #26A69A;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.button:HOVER {
+	background-color: #337AB7;
+}
+
+@media only screen and (max-width: 600px) {
+	.columns {
+		width: 100%;
+	}
+}
+.page-section {
+	padding: 0;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.page-section .margin-bottom {
+	margin-bottom: 30px;
+}
+
+.button-margin {
+	margin-bottom: 40px;
+}
+textarea {
+	resize: none;
+}
+.require {
+	color: #FF0000;
+}
+.navbar-brand.dashboard-top-title {
+  width: auto;
+}
+.expandable-content {
+  font-weight: normal;
+  text-align: justify;
+}
+
+/******************** Admin *************************************/
+#hotelimg img:hover {
+/* 	border: 1px solid; */
+	cursor: pointer;
+}
+.setting-tab {
+	width: 50%;
+	float: left;
+}
+
+.tab-content {
+	width: 100%;
+	float: left;
+}
